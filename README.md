@@ -12,12 +12,18 @@ Here you will find:
 
 License  
 --
-License: **Attribution - Share Alike - Creative Commons (<http://creativecommons.org/licenses/by-sa/3.0/>)**  
+License (_unless other specified_): **Attribution - Share Alike - Creative Commons (<http://creativecommons.org/licenses/by-sa/3.0/>)**  
 
-Author:  
+Author  
 --
 **Carlosgs (<http://carlosgs.es>)**  
 
+Acknowledgement  
+--
+Hardware design based on the MiniSkybot by **Juan González-Gómez "Obijuan"** (<http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main>) and **Alberto Valero Gómez** (<http://iearobotics.com/alberto/doku.php>)  
+
+ArduSkybot  
+--
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Media/ArduSkyBot.jpg)  
 
 Disclaimer  
