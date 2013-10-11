@@ -1,5 +1,7 @@
-Software demos for the ArduSkybot  
+Software examples for the ArduSkybot  
 =====  
+
+These are the examples used for the 2012 Summer Workshop.  
 
 Workshop contents  
 --  
