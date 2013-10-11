@@ -1,4 +1,4 @@
-Documentation for the ArduSkybot  
+Introduction to the ArduSkybot robotic platform  
 =====  
 
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p1-001.jpg)  
