@@ -16,12 +16,12 @@ License (_unless other specified_): **Attribution - Share Alike - Creative Commo
 
 Author  
 --
-**Carlosgs (<http://carlosgs.es>)**  
+**Carlos García Saura (<http://carlosgs.es>)**  
 
 Acknowledgement  
 --
 Based on the MiniSkybot by:  
- * **Juan González-Gómez "Obijuan"** (<http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main>)  
+ * **Juan González Gómez "Obijuan"** (<http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main>)  
  * **Alberto Valero Gómez** (<http://iearobotics.com/alberto/doku.php>)  
 
 ArduSkybot  
