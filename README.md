@@ -27,6 +27,9 @@ Based on the MiniSkybot by:
 ArduSkybot  
 --
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Media/ArduSkyBot.jpg)  
+![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-002.jpg)  
+![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-003.jpg)  
+![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-004.jpg)  
 
 Disclaimer  
 --
