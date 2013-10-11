@@ -1,7 +1,7 @@
 Publication for ICERI 2012  
 =====  
 
-_Carlos García-Saura, Juan González-Gómez (2012) "Low cost educational platform for robotics, using open-source 3D printers and open-source hardware", ICERI2012 Proceedings, pp. 2699-2706. ISBN: 978-84-616-0763-1_  
+_Carlos García-Saura, Juan González-Gómez (2012) **"Low cost educational platform for robotics, using open-source 3D printers and open-source hardware"**, ICERI2012 Proceedings, pp. 2699-2706. ISBN: 978-84-616-0763-1_  
 
 <http://carlosgs.es/Printbots-for-education-at-ICERI-2012>  
 
