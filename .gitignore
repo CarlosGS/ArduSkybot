@@ -1,0 +1,6 @@
+*.o
+*.a
+~$*.*x
+*.bak
+*.pyc
+.DS_Store

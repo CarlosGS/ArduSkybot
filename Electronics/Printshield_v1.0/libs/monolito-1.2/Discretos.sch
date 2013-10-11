@@ -1,0 +1,108 @@
+EESchema Schematic File Version 2  date Tue 10 Jan 2012 03:48:59 PM CET
+LIBS:Monolito-1_2
+LIBS:Monolito-1_2-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 3 3
+Title "Monolito 1.2"
+Date "10 jan 2012"
+Rev ""
+Comp ""
+Comment1 "Componentes discretos"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C?
+U 1 1 4F0C4C7C
+P 3000 1750
+F 0 "C?" H 3050 1850 50  0001 L CNN
+F 1 "C" V 2850 1650 50  0000 L CNN
+	1    3000 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L CPOL C?
+U 1 1 4F0C4C7B
+P 3500 1750
+F 0 "C?" H 3650 1890 50  0001 L CNN
+F 1 "CPOL" H 3550 1900 50  0000 L CNN
+	1    3500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 4F0C4C7A
+P 1800 1750
+F 0 "X?" H 1800 1900 60  0001 C CNN
+F 1 "CRYSTAL" H 1850 1900 60  0000 C CNN
+	1    1800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODO_LED D?
+U 1 1 4F0C4C79
+P 3350 2250
+F 0 "D?" H 3350 2350 50  0001 C CNN
+F 1 "DIODO_LED" H 3350 2350 50  0000 C CNN
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN TRT?
+U 1 1 4F0C4C78
+P 2400 1800
+F 0 "TRT?" H 2400 1970 60  0001 C CNN
+F 1 "NPN" H 2450 2000 60  0000 C CNN
+	1    2400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4F0C4C77
+P 2600 2250
+F 0 "R?" V 2500 2250 50  0001 C CNN
+F 1 "R" V 2500 2250 50  0000 C CNN
+	1    2600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistencia1 R?
+U 1 1 4F0C4C76
+P 1800 2250
+F 0 "R?" V 1700 2250 50  0001 C CNN
+F 1 "Resistencia1" V 1700 2250 50  0000 C CNN
+	1    1800 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 4F0C4C75
+P 1800 2700
+F 0 "SW?" H 1950 2810 50  0001 C CNN
+F 1 "SW_PUSH" H 1800 2850 50  0000 C CNN
+	1    1800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PULSADOR S?
+U 1 1 4F0C4C74
+P 2800 2700
+F 0 "S?" H 2560 2830 50  0001 C CNN
+F 1 "PULSADOR" H 2600 2850 50  0000 C CNN
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SWITCH_INV SW?
+U 1 1 4F0C4C73
+P 3650 2700
+F 0 "SW?" H 3450 2850 50  0001 C CNN
+F 1 "SWITCH_INV" H 3400 2850 50  0000 C CNN
+	1    3650 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

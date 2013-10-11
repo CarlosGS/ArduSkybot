@@ -1,0 +1,338 @@
+# EESchema Netlist Version 1.1 created  11/07/2012 1:39:41
+(
+ ( /4FFCAE6B $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000019 )
+  (    2 GND )
+  (    3 N-000028 )
+ )
+ ( /4FFCAE06 $noname  LED4 LED {Lib=LED}
+  (    1 N-000030 )
+  (    2 N-000004 )
+ )
+ ( /4FFCAE02 $noname  LED3 LED {Lib=LED}
+  (    1 N-000005 )
+  (    2 N-000006 )
+ )
+ ( /4FFCADF3 $noname  R_LED4 R {Lib=R}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /4FFCADF0 $noname  R_LED3 R {Lib=R}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /4FFCADB1 $noname  LED2 LED {Lib=LED}
+  (    1 N-000029 )
+  (    2 N-000007 )
+ )
+ ( /4FFCADAF $noname  R_LED2 R {Lib=R}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /4FFCAC9E $noname  JP2 JP_2 {Lib=JP_2}
+  (    1 N-000016 )
+  (    2 N-000008 )
+ )
+ ( /4FFCAB58 $noname  UF_pins1 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000009 )
+  (    3 N-000013 )
+  (    4 +5V )
+ )
+ ( /4FFCAA77 $noname  Servo_power1 CONN_4 {Lib=CONN_4}
+  (    1 +BATT )
+  (    2 +BATT )
+  (    3 +BATT )
+  (    4 +BATT )
+ )
+ ( /4FFCAA73 $noname  Servo_pin1 CONN_4 {Lib=CONN_4}
+  (    1 N-000014 )
+  (    2 N-000015 )
+  (    3 N-000016 )
+  (    4 N-000008 )
+ )
+ ( /4FFCAA62 $noname  Servo_gnd1 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+ )
+ ( /4FFCA939 $noname  CNY70_gnd1 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+ )
+ ( /4FFCA918 $noname  CNY70_power1 CONN_4 {Lib=CONN_4}
+  (    1 +5V )
+  (    2 +5V )
+  (    3 +5V )
+  (    4 +5V )
+ )
+ ( /4FFCA8D0 $noname  S_reset1 PULSADOR {Lib=PULSADOR}
+  (    1 N-000003 )
+  (    2 N-000003 )
+  (    3 GND )
+  (    4 GND )
+ )
+ ( /4FFCA85F $noname  JP1 JP_2 {Lib=JP_2}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4FFCA80B $noname  S2 PULSADOR {Lib=PULSADOR}
+  (    1 GND )
+  (    2 GND )
+  (    3 N-000021 )
+  (    4 N-000021 )
+ )
+ ( /4FB2D6C1 $noname  CNY70_1 CONN_4 {Lib=CONN_4}
+  (    1 N-000022 )
+  (    2 N-000023 )
+  (    3 N-000024 )
+  (    4 N-000025 )
+ )
+ ( /4FB0326B $noname  R_LED1 R {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000027 )
+ )
+ ( /4FB02BA8 $noname  R_LDR1 R {Lib=R}
+  (    1 N-000019 )
+  (    2 +5V )
+ )
+ ( /4FB02B9E $noname  R_LDR2 R {Lib=R}
+  (    1 N-000028 )
+  (    2 +5V )
+ )
+ ( /4FB0250A $noname  SHIELD1 ARDUINO_SHIELD {Lib=ARDUINO_SHIELD}
+  (    0 ? )
+  (    1 ? )
+  (    2 N-000013 )
+  (    3 N-000030 )
+  (    4 N-000009 )
+  (    5 N-000005 )
+  (   5V +5V )
+  (    6 N-000029 )
+  (    7 N-000014 )
+  (    8 N-000015 )
+  (    9 N-000016 )
+  (   10 N-000008 )
+  (   11 N-000017 )
+  (   12 N-000021 )
+  (   13 N-000027 )
+  (  3V3 ? )
+  (  AD0 N-000022 )
+  (  AD1 N-000023 )
+  (  AD2 N-000024 )
+  (  AD3 N-000025 )
+  (  AD4 N-000028 )
+  (  AD5 N-000019 )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 GND )
+  ( GND3 GND )
+  (  RST N-000003 )
+  ( V_IN +BATT )
+ )
+ ( /4FB024CE $noname  LED1 LED {Lib=LED}
+  (    1 N-000026 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component LED4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component LED3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R_LED4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R_LED3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component LED2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R_LED2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R_LED1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R_LDR1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R_LDR2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+BATT" "+BATT"
+ Servo_power1 1
+ Servo_power1 2
+ Servo_power1 3
+ Servo_power1 4
+ SHIELD1 V_IN
+Net 2 "GND" "GND"
+ SHIELD1 GND2
+ S2 2
+ S2 1
+ LED1 2
+ SHIELD1 GND3
+ UF_pins1 1
+ SHIELD1 GND1
+ S_reset1 4
+ S_reset1 3
+ CNY70_gnd1 4
+ CNY70_gnd1 3
+ CNY70_gnd1 1
+ Servo_gnd1 4
+ Servo_gnd1 3
+ Servo_gnd1 2
+ Servo_gnd1 1
+ CNY70_gnd1 2
+ R_LED4 2
+ K1 2
+ R_LED3 2
+ R_LED2 2
+ JP1 2
+Net 3 "" ""
+ S_reset1 1
+ S_reset1 2
+ SHIELD1 RST
+Net 4 "" ""
+ R_LED4 1
+ LED4 2
+Net 5 "" ""
+ SHIELD1 5
+ LED3 1
+Net 6 "" ""
+ LED3 2
+ R_LED3 1
+Net 7 "" ""
+ LED2 2
+ R_LED2 1
+Net 8 "" ""
+ SHIELD1 10
+ JP2 2
+ Servo_pin1 4
+Net 9 "" ""
+ SHIELD1 4
+ UF_pins1 2
+Net 10 "+5V" "+5V"
+ R_LDR2 2
+ CNY70_power1 1
+ CNY70_power1 2
+ CNY70_power1 3
+ CNY70_power1 4
+ UF_pins1 4
+ SHIELD1 5V
+ R_LDR1 2
+Net 13 "" ""
+ SHIELD1 2
+ UF_pins1 3
+Net 14 "" ""
+ Servo_pin1 1
+ SHIELD1 7
+Net 15 "" ""
+ SHIELD1 8
+ Servo_pin1 2
+Net 16 "" ""
+ Servo_pin1 3
+ JP2 1
+ SHIELD1 9
+Net 17 "" ""
+ JP1 1
+ SHIELD1 11
+Net 19 "" ""
+ R_LDR1 1
+ SHIELD1 AD5
+ K1 1
+Net 21 "" ""
+ S2 4
+ S2 3
+ SHIELD1 12
+Net 22 "" ""
+ SHIELD1 AD0
+ CNY70_1 1
+Net 23 "" ""
+ CNY70_1 2
+ SHIELD1 AD1
+Net 24 "" ""
+ SHIELD1 AD2
+ CNY70_1 3
+Net 25 "" ""
+ SHIELD1 AD3
+ CNY70_1 4
+Net 26 "" ""
+ R_LED1 1
+ LED1 1
+Net 27 "" ""
+ SHIELD1 13
+ R_LED1 2
+Net 28 "" ""
+ SHIELD1 AD4
+ K1 3
+ R_LDR2 1
+Net 29 "" ""
+ LED2 1
+ SHIELD1 6
+Net 30 "" ""
+ LED4 1
+ SHIELD1 3
+}
+#End

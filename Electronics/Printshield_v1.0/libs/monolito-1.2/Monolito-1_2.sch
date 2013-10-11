@@ -1,0 +1,371 @@
+EESchema Schematic File Version 2  date Tue 10 Jan 2012 03:48:59 PM CET
+LIBS:Monolito-1_2
+LIBS:Monolito-1_2-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 3
+Title "Monolito. Librería de componentes para Kicad"
+Date "10 jan 2012"
+Rev "1.1.1"
+Comp "iearobotics.com"
+Comment1 "Licencia GPL"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8250 1650 1100 1150
+U 4F0C4D4B
+F0 "Circuitos_integrados" 60
+F1 "Circuitos_integrados.sch" 60
+$EndSheet
+$Sheet
+S 8350 3850 900  1000
+U 4F0AFFC8
+F0 "Discretos" 60
+F1 "Discretos.sch" 60
+$EndSheet
+$Comp
+L OSHW-LOGO #G?
+U 1 1 4F0AF317
+P 1450 3650
+F 0 "#G?" H 1450 3347 60  0001 C CNN
+F 1 "OSHW-LOGO" H 1450 3953 60  0000 C CNN
+	1    1450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICSP_HEADER H_DOC?
+U 1 1 4F0AF1D9
+P 5250 5300
+F 0 "H_DOC?" H 5600 5210 60  0001 C CNN
+F 1 "ICSP_HEADER" H 5700 5650 60  0000 C CNN
+	1    5250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEAD3X2 H?
+U 1 1 4F0AF13B
+P 4950 2900
+F 0 "H?" H 5300 3050 60  0001 C CNN
+F 1 "HEAD3X2" H 5550 3050 40  0000 C CNN
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L H3X2-PINS-DOC H_DOC?
+U 1 1 4F0AF0D5
+P 2800 3550
+F 0 "H_DOC?" H 3150 3460 60  0001 C CNN
+F 1 "H3X2-PINS-DOC" H 3250 3900 60  0000 C CNN
+	1    2800 3550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4400 4750 4400 4450
+Wire Notes Line
+	4400 4750 5800 4750
+Wire Notes Line
+	5800 4750 5800 4450
+Wire Notes Line
+	5800 4450 4400 4450
+Wire Notes Line
+	1500 1300 1500 1050
+Wire Notes Line
+	1500 1300 2550 1300
+Wire Notes Line
+	2550 1300 2550 1050
+Wire Notes Line
+	2550 1050 1500 1050
+Wire Notes Line
+	8000 3550 8000 3300
+Wire Notes Line
+	8000 3550 9550 3550
+Wire Notes Line
+	9550 3550 9550 3300
+Wire Notes Line
+	9550 3300 8000 3300
+Wire Notes Line
+	5350 1250 5350 1050
+Wire Notes Line
+	5350 1250 6200 1250
+Wire Notes Line
+	6200 1250 6200 1050
+Wire Notes Line
+	6200 1050 5350 1050
+Wire Notes Line
+	8000 1300 8000 1050
+Wire Notes Line
+	8000 1300 9600 1300
+Wire Notes Line
+	9600 1300 9600 1050
+Wire Notes Line
+	9600 1050 8000 1050
+Wire Notes Line
+	5450 6300 4800 6300
+Wire Notes Line
+	5450 6300 5450 6550
+Wire Notes Line
+	5450 6550 4800 6550
+Wire Notes Line
+	4800 6550 4800 6300
+Wire Notes Line
+	1700 6550 1700 6300
+Wire Notes Line
+	1700 6550 2700 6550
+Wire Notes Line
+	2700 6550 2700 6300
+Wire Notes Line
+	2700 6300 1700 6300
+Wire Notes Line
+	3050 4450 1500 4450
+Wire Notes Line
+	3050 4450 3050 4700
+Wire Notes Line
+	3050 4700 1500 4700
+Wire Notes Line
+	1500 4700 1500 4450
+Text Notes 4500 4650 0    60   ~ 0
+Documentacion Skymega
+$Comp
+L EP_DOC CT_DOC?
+U 1 1 4F0A3731
+P 4100 5300
+F 0 "CT_DOC?" H 4510 5100 60  0001 C CNN
+F 1 "EP_DOC" H 4600 5650 60  0000 C CNN
+	1    4100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOLEX-2 CP?
+U 1 1 4B35C9D7
+P 5950 2500
+F 0 "CP?" H 6225 2325 60  0001 C CNN
+F 1 "MOLEX-2" H 6225 2775 60  0000 C CNN
+	1    5950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PULSADOR_DOC DOC?
+U 1 1 4B3513B2
+P 3150 2700
+F 0 "DOC?" H 3160 2870 60  0001 C CNN
+F 1 "PULSADOR_DOC" H 3200 2900 60  0000 C CNN
+	1    3150 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 1600 4600 0    60   ~ 0
+Documentacion Skypic
+Text Notes 1600 1200 0    60   ~ 0
+Documentacion
+Text Notes 1800 6450 0    60   ~ 0
+Alimentacion
+Text Notes 8100 3450 0    60   ~ 0
+Componentes discretos
+Text Notes 4900 6450 0    60   ~ 0
+Jumpers
+Text Notes 5450 1200 0    60   ~ 0
+Conectores
+Text Notes 8150 1200 0    60   ~ 0
+Circuitos integrados
+$Comp
+L VCC #PWR2
+U 1 1 4B322B81
+P 2400 6850
+F 0 "#PWR2" H 2400 7000 30  0001 C CNN
+F 1 "VCC" H 2400 6950 30  0000 C CNN
+	1    2400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEL6_DOC DOC5
+U 1 1 4B32274A
+P 3050 2100
+F 0 "DOC5" H 3250 2750 60  0001 C CNN
+F 1 "TEL6_DOC" H 3150 2700 60  0000 C CNN
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEL6 T1
+U 1 1 4B322741
+P 5700 2050
+F 0 "T1" H 5400 2470 60  0001 C CNN
+F 1 "TEL6" H 5550 2700 60  0000 C CNN
+	1    5700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 4B320CD3
+P 2100 7000
+F 0 "#FLG1" H 2100 7270 30  0001 C CNN
+F 1 "PWR_FLAG" H 2100 7230 30  0000 C CNN
+	1    2100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROG_DOC CT_DOC5
+U 1 1 4B320CA9
+P 2450 5300
+F 0 "CT_DOC5" H 2860 5100 60  0001 C CNN
+F 1 "PROG_DOC" H 3000 5650 60  0000 C CNN
+	1    2450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PORTC_DOC CT_DOC2
+U 1 1 4B320C8D
+P 2400 5750
+F 0 "CT_DOC2" H 2810 5550 60  0001 C CNN
+F 1 "PORTC_DOC" H 2950 6100 60  0000 C CNN
+	1    2400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PORTB_DOC CT_DOC1
+U 1 1 4B320C73
+P 1250 5750
+F 0 "CT_DOC1" H 1660 5550 60  0001 C CNN
+F 1 "PORTB_DOC" H 1800 6100 60  0000 C CNN
+	1    1250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PORTA_DOC CT_DOC3
+U 1 1 4B320C4B
+P 1300 5300
+F 0 "CT_DOC3" H 1710 5100 60  0001 C CNN
+F 1 "PORTA_DOC" H 1800 5650 60  0000 C CNN
+	1    1300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOLEX-5 CP1
+U 1 1 4B320C0A
+P 6350 1800
+F 0 "CP1" H 6275 1400 60  0001 C CNN
+F 1 "MOLEX-5" H 6250 2200 60  0000 C CNN
+	1    6350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_DOC DOC4
+U 1 1 4B320BCB
+P 2300 1700
+F 0 "DOC4" H 2320 1910 60  0001 C CNN
+F 1 "LED_DOC" H 2350 1900 60  0000 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_5 JP4
+U 1 1 4B320BA8
+P 5700 6950
+F 0 "JP4" H 5910 7180 60  0001 C CNN
+F 1 "JP_5" H 5900 7200 60  0000 C CNN
+	1    5700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_4 JP3
+U 1 1 4B320B8F
+P 5200 6950
+F 0 "JP3" H 5360 7170 60  0001 C CNN
+F 1 "JP_4" H 5350 7200 60  0000 C CNN
+	1    5200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 JP1
+U 1 1 4B320B67
+P 4750 6950
+F 0 "JP1" H 4850 7170 60  0001 C CNN
+F 1 "JP_3" H 4850 7200 60  0000 C CNN
+	1    4750 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_2 JP2
+U 1 1 4B320B49
+P 4350 6950
+F 0 "JP2" H 4410 7170 60  0001 C CNN
+F 1 "JP_2" H 4400 7200 60  0000 C CNN
+	1    4350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_DOC DOC3
+U 1 1 4B320B2E
+P 2150 2800
+F 0 "DOC3" H 2300 3170 60  0001 C CNN
+F 1 "JACK_DOC" H 2350 3150 60  0000 C CNN
+	1    2150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK J?1
+U 1 1 4B320B15
+P 4900 2550
+F 0 "J?1" H 5140 2830 60  0001 C CNN
+F 1 "JACK" H 5150 2850 60  0000 C CNN
+	1    4900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICP_DOC DOC1
+U 1 1 4B320A0D
+P 1200 3100
+F 0 "DOC1" H 1400 3500 60  0001 C CNN
+F 1 "ICP_DOC" H 1400 3500 60  0000 C CNN
+	1    1200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L I2C_DOC DOC2
+U 1 1 4B3209D3
+P 1250 2450
+F 0 "DOC2" H 1400 2850 60  0001 C CNN
+F 1 "I2C_DOC" H 1400 2850 60  0000 C CNN
+	1    1250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 4B3209B6
+P 2600 6950
+F 0 "#PWR1" H 2600 6980 30  0001 C CNN
+F 1 "GND" H 2600 7000 30  0000 C CNN
+	1    2600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CT_DOC CT_DOC4
+U 1 1 4B32058D
+P 1350 1750
+F 0 "CT_DOC4" H 1450 1450 60  0001 C CNN
+F 1 "CT_DOC" H 1450 2000 60  0000 C CNN
+	1    1350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CT CT1
+U 1 1 4B32057F
+P 7000 1900
+F 0 "CT1" V 6950 1900 60  0001 C CNN
+F 1 "CT" H 7000 2450 60  0000 C CNN
+	1    7000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CLEMA2P CL1
+U 1 1 4B32054B
+P 5000 1650
+F 0 "CL1" H 4950 1900 60  0001 C CNN
+F 1 "CLEMA2P" H 5000 1900 60  0000 C CNN
+	1    5000 1650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
