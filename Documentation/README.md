@@ -11,6 +11,7 @@ These slides were used in a workshop in Summer 2012, the full description of the
 Workshop contents  
 --  
 These slides were used in a workshop in Summer 2012, the full description of the workshop is hosted here: <http://carlosgs.es/2012-summer-workshop>  
+
 1. Introduction to robotics with Arduino  
     * Lesson contents:  
         * Basic components of a robot.  
