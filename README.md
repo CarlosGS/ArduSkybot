@@ -20,7 +20,9 @@ Author
 
 Acknowledgement  
 --
-Hardware design based on the MiniSkybot by **Juan González-Gómez "Obijuan"** (<http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main>) and **Alberto Valero Gómez** (<http://iearobotics.com/alberto/doku.php>)  
+Based on the MiniSkybot by:  
+ * **Juan González-Gómez "Obijuan"** (<http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main>)  
+ * **Alberto Valero Gómez** (<http://iearobotics.com/alberto/doku.php>)  
 
 ArduSkybot  
 --
