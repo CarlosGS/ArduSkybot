@@ -1,34 +1,22 @@
-ArduSkybot  
+Electronics for the ArduSkybot  
 =====  
 
-**Low cost educational printbot based on Arduino.**  
+_Full instructions (summary below these lines):_
+* _Printshield: <https://github.com/carlosgs/ArduSkybot/tree/master/Documentation/1%20-%20Introduction> and <https://github.com/carlosgs/ArduSkybot/tree/master/Documentation/2%20-%20Robot%20assembly>_
+* _Line sensor: <https://github.com/carlosgs/ArduSkybot/tree/master/Documentation/4%20-%20Line%20sensor>_
 
-Here you will find:  
- * All files and information necessary to build an ArduSkybot.  
- * Arduino code examples for the robot.  
- * Documentation and workshop slides.  
- * Research work about the ArduSkybot (in spanish).  
- * Source files for everything :)  
+The Printshield for Arduino  
+--  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p1-007.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p1-008.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p1-009.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p1-010.jpg)  
 
-License  
---
-License (_unless other specified_): **Attribution - Share Alike - Creative Commons (<http://creativecommons.org/licenses/by-sa/3.0/>)**  
+The line sensor board  
+--  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-002.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-003.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-004.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-005.jpg)  
 
-Author  
---
-**Carlos García Saura (<http://carlosgs.es>)**  
-
-Acknowledgement  
---
-Based on the MiniSkybot by:  
- * **Juan González Gómez "Obijuan"** (<http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main>)  
- * **Alberto Valero Gómez** (<http://iearobotics.com/alberto/doku.php>)  
-
-ArduSkybot  
---
-![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Media/ArduSkyBot.jpg)  
-
-Disclaimer  
---
-This hardware/software is provided "as is", and you use the hardware/software at your own risk. Under nocircumstances shall any author be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this hardware/software, even if the authors have been advised of the possibility of such damages.  
 
