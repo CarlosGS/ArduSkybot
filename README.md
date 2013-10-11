@@ -3,7 +3,7 @@ ArduSkybot
 
 **Low cost educational printbot based on Arduino.**  
 
-![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Publications/Media/ArduSkyBot.jpg)  
+![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Publications/Media/ArduSkyBot_hand.jpg)  
 
 Here you will find:  
  * All files and information necessary to build an ArduSkybot.  
@@ -28,9 +28,11 @@ Based on the MiniSkybot by:
 
 ArduSkybot  
 --
+![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Publications/Media/ArduSkyBot_x2.jpg)  
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-002.jpg)  
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-003.jpg)  
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-004.jpg)  
+![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Publications/Media/ArduSkyBot.jpg)  
 
 Disclaimer  
 --
