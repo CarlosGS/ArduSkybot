@@ -1,0 +1,421 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:cny70
+LIBS:placa_cny70-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Placa sensores CNY70"
+Date "17 may 2012"
+Rev "v1.0"
+Comp "CRM-UAM"
+Comment1 "Autores:"
+Comment2 "Carlos García Saura"
+Comment3 "Lucas Polo López"
+Comment4 "Miguel Gargallo Vázquez"
+$EndDescr
+Wire Wire Line
+	6600 1750 6600 2400
+Wire Wire Line
+	6600 2400 7900 2400
+Wire Wire Line
+	5850 1850 6900 1850
+Wire Wire Line
+	5850 1850 5850 1750
+Wire Wire Line
+	5850 1750 5100 1750
+Connection ~ 8400 2600
+Connection ~ 4250 2600
+Connection ~ 8400 3850
+Wire Wire Line
+	8400 4150 8400 3850
+Connection ~ 4250 3850
+Wire Wire Line
+	4250 4200 4250 3850
+Wire Wire Line
+	7700 1750 7700 1900
+Wire Wire Line
+	7700 1750 7600 1750
+Wire Wire Line
+	7600 1750 7600 1800
+Wire Wire Line
+	6500 3100 6500 2050
+Wire Wire Line
+	3900 3350 3900 3100
+Wire Wire Line
+	3900 2900 3900 2600
+Wire Wire Line
+	3900 2600 4600 2600
+Wire Wire Line
+	4600 2600 4600 2900
+Wire Wire Line
+	4600 3100 5100 3100
+Wire Wire Line
+	4600 3100 4600 3350
+Wire Wire Line
+	8750 3850 8050 3850
+Wire Wire Line
+	8050 3350 8050 3100
+Wire Wire Line
+	8050 2900 8050 2600
+Wire Wire Line
+	8050 2600 8750 2600
+Wire Wire Line
+	8750 2600 8750 2900
+Wire Wire Line
+	8750 3350 8750 3100
+Wire Wire Line
+	6000 3350 6000 3100
+Wire Wire Line
+	6000 3100 6500 3100
+Wire Wire Line
+	6000 2900 6000 2600
+Wire Wire Line
+	6000 2600 5300 2600
+Wire Wire Line
+	5300 2600 5300 2900
+Wire Wire Line
+	5300 3350 5300 3100
+Wire Wire Line
+	6000 3850 5300 3850
+Wire Wire Line
+	7400 3850 6700 3850
+Wire Wire Line
+	6700 3350 6700 3100
+Wire Wire Line
+	6700 2900 6700 2600
+Wire Wire Line
+	6700 2600 7400 2600
+Wire Wire Line
+	7400 2600 7400 2900
+Wire Wire Line
+	7400 3100 7900 3100
+Wire Wire Line
+	7400 3100 7400 3350
+Wire Wire Line
+	5100 3100 5100 1750
+Wire Wire Line
+	7900 3100 7900 2400
+Wire Wire Line
+	4600 3850 3900 3850
+Wire Wire Line
+	5650 4150 5650 3850
+Connection ~ 5650 3850
+Wire Wire Line
+	7050 4150 7050 3850
+Connection ~ 7050 3850
+Connection ~ 5650 2600
+Connection ~ 7050 2600
+Wire Wire Line
+	7450 1850 7000 1850
+Wire Wire Line
+	7000 1850 7000 1750
+Wire Wire Line
+	7700 1900 7100 1900
+Wire Wire Line
+	7100 1900 7100 1750
+Wire Wire Line
+	6500 2050 6800 2050
+Wire Wire Line
+	6800 2050 6800 1750
+Wire Wire Line
+	6900 1850 6900 1750
+Wire Wire Line
+	8750 3100 9250 3100
+Wire Wire Line
+	9250 3100 9250 2000
+Wire Wire Line
+	9250 2000 6700 2000
+Wire Wire Line
+	6700 2000 6700 1750
+$Comp
+L +5V #PWR01
+U 1 1 4FB52F1C
+P 7450 1850
+F 0 "#PWR01" H 7450 1940 20  0001 C CNN
+F 1 "+5V" H 7450 1940 30  0000 C CNN
+F 2 "" H 7450 1850 60  0001 C CNN
+F 3 "" H 7450 1850 60  0001 C CNN
+	1    7450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4FB52F14
+P 7600 1800
+F 0 "#PWR02" H 7600 1800 30  0001 C CNN
+F 1 "GND" H 7600 1730 30  0001 C CNN
+F 2 "" H 7600 1800 60  0001 C CNN
+F 3 "" H 7600 1800 60  0001 C CNN
+	1    7600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 4FB52EA2
+P 4250 2600
+F 0 "#PWR03" H 4250 2690 20  0001 C CNN
+F 1 "+5V" H 4250 2690 30  0000 C CNN
+F 2 "" H 4250 2600 60  0001 C CNN
+F 3 "" H 4250 2600 60  0001 C CNN
+	1    4250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4FB52EA1
+P 4250 4200
+F 0 "#PWR04" H 4250 4200 30  0001 C CNN
+F 1 "GND" H 4250 4130 30  0001 C CNN
+F 2 "" H 4250 4200 60  0001 C CNN
+F 3 "" H 4250 4200 60  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_sen_s1
+U 1 1 4FB52EA0
+P 4600 3600
+F 0 "R_sen_s1" V 4680 3600 50  0000 C CNN
+F 1 "10k" V 4600 3600 50  0000 C CNN
+F 2 "" H 4600 3600 60  0001 C CNN
+F 3 "" H 4600 3600 60  0001 C CNN
+	1    4600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R_led_s1
+U 1 1 4FB52E9F
+P 3900 3600
+F 0 "R_led_s1" V 3980 3600 50  0000 C CNN
+F 1 "220" V 3900 3600 50  0000 C CNN
+F 2 "" H 3900 3600 60  0001 C CNN
+F 3 "" H 3900 3600 60  0001 C CNN
+	1    3900 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CNY70 U?
+U 1 1 4FB52E9E
+P 4300 3000
+AR Path="/4FB52CED" Ref="U?"  Part="1" 
+AR Path="/4FB52E9E" Ref="Sensor1"  Part="1" 
+F 0 "Sensor1" H 4300 3000 60  0000 C CNN
+F 1 "CNY70" H 4300 3000 60  0000 C CNN
+F 2 "" H 4300 3000 60  0001 C CNN
+F 3 "" H 4300 3000 60  0001 C CNN
+	1    4300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 4FB52E97
+P 8400 2600
+F 0 "#PWR05" H 8400 2690 20  0001 C CNN
+F 1 "+5V" H 8400 2690 30  0000 C CNN
+F 2 "" H 8400 2600 60  0001 C CNN
+F 3 "" H 8400 2600 60  0001 C CNN
+	1    8400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4FB52E96
+P 8400 4150
+F 0 "#PWR06" H 8400 4150 30  0001 C CNN
+F 1 "GND" H 8400 4080 30  0001 C CNN
+F 2 "" H 8400 4150 60  0001 C CNN
+F 3 "" H 8400 4150 60  0001 C CNN
+	1    8400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_sen_s4
+U 1 1 4FB52E95
+P 8750 3600
+F 0 "R_sen_s4" V 8830 3600 50  0000 C CNN
+F 1 "10k" V 8750 3600 50  0000 C CNN
+F 2 "" H 8750 3600 60  0001 C CNN
+F 3 "" H 8750 3600 60  0001 C CNN
+	1    8750 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R_led_s4
+U 1 1 4FB52E94
+P 8050 3600
+F 0 "R_led_s4" V 8130 3600 50  0000 C CNN
+F 1 "220" V 8050 3600 50  0000 C CNN
+F 2 "" H 8050 3600 60  0001 C CNN
+F 3 "" H 8050 3600 60  0001 C CNN
+	1    8050 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CNY70 U?
+U 1 1 4FB52E93
+P 8450 3000
+AR Path="/4FB52CED" Ref="U?"  Part="1" 
+AR Path="/4FB52E93" Ref="Sensor4"  Part="1" 
+F 0 "Sensor4" H 8450 3000 60  0000 C CNN
+F 1 "CNY70" H 8450 3000 60  0000 C CNN
+F 2 "" H 8450 3000 60  0001 C CNN
+F 3 "" H 8450 3000 60  0001 C CNN
+	1    8450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CNY70 U?
+U 1 1 4FB52E82
+P 5700 3000
+AR Path="/4FB52CED" Ref="U?"  Part="1" 
+AR Path="/4FB52E82" Ref="Sensor2"  Part="1" 
+F 0 "Sensor2" H 5700 3000 60  0000 C CNN
+F 1 "CNY70" H 5700 3000 60  0000 C CNN
+F 2 "" H 5700 3000 60  0001 C CNN
+F 3 "" H 5700 3000 60  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_led_s2
+U 1 1 4FB52E81
+P 5300 3600
+F 0 "R_led_s2" V 5380 3600 50  0000 C CNN
+F 1 "220" V 5300 3600 50  0000 C CNN
+F 2 "" H 5300 3600 60  0001 C CNN
+F 3 "" H 5300 3600 60  0001 C CNN
+	1    5300 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R_sen_s2
+U 1 1 4FB52E80
+P 6000 3600
+F 0 "R_sen_s2" V 6080 3600 50  0000 C CNN
+F 1 "10k" V 6000 3600 50  0000 C CNN
+F 2 "" H 6000 3600 60  0001 C CNN
+F 3 "" H 6000 3600 60  0001 C CNN
+	1    6000 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4FB52E7F
+P 5650 4150
+F 0 "#PWR07" H 5650 4150 30  0001 C CNN
+F 1 "GND" H 5650 4080 30  0001 C CNN
+F 2 "" H 5650 4150 60  0001 C CNN
+F 3 "" H 5650 4150 60  0001 C CNN
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR08
+U 1 1 4FB52E7E
+P 5650 2600
+F 0 "#PWR08" H 5650 2690 20  0001 C CNN
+F 1 "+5V" H 5650 2690 30  0000 C CNN
+F 2 "" H 5650 2600 60  0001 C CNN
+F 3 "" H 5650 2600 60  0001 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 4FB52E21
+P 6850 1400
+F 0 "P1" V 6800 1400 60  0000 C CNN
+F 1 "CONN_6" V 6900 1400 60  0000 C CNN
+F 2 "" H 6850 1400 60  0001 C CNN
+F 3 "" H 6850 1400 60  0001 C CNN
+	1    6850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 4FB52DF2
+P 7050 2600
+F 0 "#PWR09" H 7050 2690 20  0001 C CNN
+F 1 "+5V" H 7050 2690 30  0000 C CNN
+F 2 "" H 7050 2600 60  0001 C CNN
+F 3 "" H 7050 2600 60  0001 C CNN
+	1    7050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4FB52DE6
+P 7050 4150
+F 0 "#PWR010" H 7050 4150 30  0001 C CNN
+F 1 "GND" H 7050 4080 30  0001 C CNN
+F 2 "" H 7050 4150 60  0001 C CNN
+F 3 "" H 7050 4150 60  0001 C CNN
+	1    7050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_sen_s3
+U 1 1 4FB52D60
+P 7400 3600
+F 0 "R_sen_s3" V 7480 3600 50  0000 C CNN
+F 1 "10k" V 7400 3600 50  0000 C CNN
+F 2 "" H 7400 3600 60  0001 C CNN
+F 3 "" H 7400 3600 60  0001 C CNN
+	1    7400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R_led_s3
+U 1 1 4FB52D0D
+P 6700 3600
+F 0 "R_led_s3" V 6780 3600 50  0000 C CNN
+F 1 "220" V 6700 3600 50  0000 C CNN
+F 2 "" H 6700 3600 60  0001 C CNN
+F 3 "" H 6700 3600 60  0001 C CNN
+	1    6700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CNY70 Sensor3
+U 1 1 4FB52CED
+P 7100 3000
+F 0 "Sensor3" H 7100 3000 60  0000 C CNN
+F 1 "CNY70" H 7100 3000 60  0000 C CNN
+F 2 "" H 7100 3000 60  0001 C CNN
+F 3 "" H 7100 3000 60  0001 C CNN
+	1    7100 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

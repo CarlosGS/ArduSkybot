@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 17/05/2012 19:11:28
+
+BeginCmp
+TimeStamp = /4FB52E21;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E9F;
+Reference = R_led_s1;
+ValeurCmp = 220;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E81;
+Reference = R_led_s2;
+ValeurCmp = 220;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52D0D;
+Reference = R_led_s3;
+ValeurCmp = 220;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E94;
+Reference = R_led_s4;
+ValeurCmp = 220;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52EA0;
+Reference = R_sen_s1;
+ValeurCmp = 1k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E80;
+Reference = R_sen_s2;
+ValeurCmp = 1k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52D60;
+Reference = R_sen_s3;
+ValeurCmp = 1k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E95;
+Reference = R_sen_s4;
+ValeurCmp = 1k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E9E;
+Reference = Sensor1;
+ValeurCmp = CNY70;
+IdModule  = cny70-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E82;
+Reference = Sensor2;
+ValeurCmp = CNY70;
+IdModule  = cny70-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52CED;
+Reference = Sensor3;
+ValeurCmp = CNY70;
+IdModule  = cny70-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB52E93;
+Reference = Sensor4;
+ValeurCmp = CNY70;
+IdModule  = cny70-4;
+EndCmp
+
+EndListe
