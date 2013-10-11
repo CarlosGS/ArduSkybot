@@ -32,7 +32,6 @@ ArduSkybot
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-003.jpg)  
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-004.jpg)  
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Publications/Media/ArduSkyBot.jpg)  
-![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Publications/Media/ArduSkyBot_hand.jpg)  
 
 Disclaimer  
 --
