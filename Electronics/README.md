@@ -15,6 +15,7 @@ The Printshield for Arduino
 The line sensor board  
 =====  
 ![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-002.jpg)  
+![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Publications/Media/line_sensor.jpg)  
 ![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-003.jpg)  
 ![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-004.jpg)  
 ![ScreenShot](https://raw.github.com/carlosgs/ArduSkybot/master/Documentation/jpg/p3-005.jpg)  
