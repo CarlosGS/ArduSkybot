@@ -12,6 +12,11 @@ Here you will find:
  * Research work about the ArduSkybot (in spanish).  
  * Source files for everything :)  
 
+Video  
+--  
+You can see the robot being used in the 2012 Summer Workshop:  
+**<http://www.youtube.com/watch?v=2o3PmDZZxAQ>**  
+
 License  
 --
 License (_unless other specified_): **Attribution - Share Alike - Creative Commons (<http://creativecommons.org/licenses/by-sa/3.0/>)**  

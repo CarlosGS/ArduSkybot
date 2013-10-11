@@ -1,10 +1,5 @@
-Documentation for the ArduSkybot  
+Software demos for the ArduSkybot  
 =====  
-
-**In the different folders you will find the instructions for each part of the assembly**  
-
-These slides were used in a workshop in Summer 2012, the full description of the workshop is hosted here:  
-<http://carlosgs.es/2012-summer-workshop>  
 
 Workshop contents  
 --  
@@ -37,11 +32,16 @@ Workshop contents
         * Advanced: while following a line, avoid obstacles!  
     * Code  
 
-![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-004.jpg)  
+ArduSkyBot demo code  
+--  
+Code for demonstrating the basic functionality of the ArduSkyBot.
 
-**Jpg images were generated using the following commands:**  
- * gs -sOutputFile=p1-%03d.jpg -dNOPAUSE -dSAFER -sDEVICE=jpeg -dBATCH -r100 2012\ Lesson\ 1\ -\ Introduction\ to\ robotics\ with\ Arduino.pdf
- * gs -sOutputFile=p2-%03d.jpg -dNOPAUSE -dSAFER -sDEVICE=jpeg -dBATCH -r100 2012\ Lesson\ 2\ -\ Assembling\ the\ ArduSkyBot.pdf
- * gs -sOutputFile=p3-%03d.jpg -dNOPAUSE -dSAFER -sDEVICE=jpeg -dBATCH -r100 2012\ Lesson\ 4\ -\ Using\ the\ line\ sensor.pdf
-
+1. At the beginning the robot will make a sound and the orange LED will light up.
+2. Then you can select an option (with the push button):
+    * Orange LED: Distance harp
+    * Red LED: Line follower
+    * Green LED: Light follower (with obstacle avoidance)
+    * Yellow LED: Obstacle avoidance
+3. Wait for 5 seconds, the robot will make a sound and the selected LED will blink.
+4. Press the button to launch the program.
 
