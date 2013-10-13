@@ -1,6 +1,27 @@
-Índice del trabajo de investigación  
+Trabajo de investigación  
 =====  
 Robots educativos libres, imprimibles y de bajo coste  
+--  
+
+Resumen  
+--  
+<pre>La robótica educativa requiere plataformas que sean sencillas de utilizar, siendo a la vez muy completas y manteniendo un precio reducido; pero en muchas ocasiones es necesario dejar de lado al menos uno de estos aspectos.
+
+En este trabajo de investigación se propone el uso de plataformas educativas de hardware libre.
+
+Gracias a la tecnología de las impresoras 3D open-source que se han desarrollado en los últimos años, cualquiera puede disponer de una impresora 3D en su casa y fabricar sus propias piezas.
+
+Los “printbots” son robots libres e imprimibles, es decir, existe una comunidad abierta que comparte todos los diseños y cualquiera puede fabricarlos utilizando una impresora 3D casera.
+
+Se trata el uso de los printbots como elemento educativo, concretamente el robot HKTR-9000 y de su uso en un taller con estudiantes universitarios.
+
+Después se proponen mejoras respecto a los printbots educativos, que culminan en el desarrollo del Printshield, una nueva plataforma educativa de hardware abierto y bajo coste basada en Arduino.
+
+Por último, se demuestra el funcionamiento del ArduSkyBot, un printbot basado en el Printshield, y se exploran sus posibilidades educativas con vista a futuros talleres.</pre>
+
+Más información: <http://carlosgs.es/projects>  
+
+Índice  
 --  
 * Introducción	1  
 * Descripción	1  
@@ -49,4 +70,25 @@ Robots educativos libres, imprimibles y de bajo coste
 * Conclusiones	46  
 * Agradecimientos	47  
 * Fuentes, imágenes y licencia	48  
+
+Licencia de todo el proyecto: Attribution - Share Alike Creative Commons license  
+--  
+<http://creativecommons.org/licenses/by-sa/3.0/>  
+
+Abstract  
+--  
+<pre>Educational robotics requires platforms that are simple to use, and at the same time full-featured and low-cost; but in many occasions some of these requirements must be left apart.
+
+This research work proposes using open-hardware educational platforms.
+
+Thanks to the open-source 3D printing technology that has been developed in recent years, anyone can have a 3D printer at home and manufacture his own parts.
+
+“Printbots” are open-source robots that are printable, which means that they have an open community that shares every design, and anyone can build them using a 3D printer.
+
+We also cover the usage of printbots as an educational element. Specifically, the HKTR-9000 robot and its usage on a workshop with college students.
+
+Then we propose some improvements regarding educational printbots, that culminate with the development of the Printshield, a new educational platform which is Arduino-based, open-hardware and keeps a low cost.
+
+Finally, we demonstrate the operation of a Printshield-powered printbot: the ArduSkyBot. We also research its educational possibilities regarding future workshops.</pre>
+
 
