@@ -6,11 +6,11 @@ Documentation for the ArduSkybot
 ![ScreenShot](https://github.com/carlosgs/ArduSkybot/raw/master/Documentation/jpg/p2-004.jpg)  
 
 These slides were used in a workshop in Summer 2012, the full description of the workshop is hosted here:  
-<http://carlosgs.es/2012-summer-workshop>  
+<https://web.archive.org/web/20150204114811/http://carlosgs.es/2012-summer-workshop>  
 
 Workshop contents  
 --  
-These slides were used in a workshop in Summer 2012, the full description of the workshop is hosted here: <http://carlosgs.es/2012-summer-workshop>  
+These slides were used in a workshop in Summer 2012, the full description of the workshop is hosted here: <https://web.archive.org/web/20150204114811/http://carlosgs.es/2012-summer-workshop>  
 
 1. Introduction to robotics with Arduino  
     * Lesson contents:  
