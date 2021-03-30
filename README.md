@@ -23,7 +23,7 @@ License (_unless other specified_): **Attribution - Share Alike - Creative Commo
 
 Author  
 --
-**Carlos García Saura (<http://carlosgs.es>)**  
+Carlos García Saura
 
 Acknowledgement  
 --
